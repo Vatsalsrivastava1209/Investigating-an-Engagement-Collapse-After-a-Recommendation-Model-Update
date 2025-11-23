@@ -11,7 +11,7 @@ This project utilized PostgreSQL, Python (Pandas, Seaborn), and advanced SQL (Wi
 
 ***
 
-## 🛠️ Technology Stack & Techniques
+## Technology Stack & Techniques
 
 * **Database:** PostgreSQL (Primary analytics platform, used for DDL/DML and complex joins).
 * **Tools:** Python, Pandas, Matplotlib, **Seaborn** (Visualization), `psycopg2` (ETL).
@@ -20,7 +20,7 @@ This project utilized PostgreSQL, Python (Pandas, Seaborn), and advanced SQL (Wi
 
 ***
 
-## 📈 Phase I & II: Diagnosis and Evidence
+## Phase I & II: Diagnosis and Evidence
 
 The investigation followed a clear Hypothesis Tree, ruling out global factors (e.g., device type, app version) to isolate the segment responsible for the collapse.
 
@@ -54,7 +54,7 @@ By using the pre-drop period (Baseline) to establish expected performance, the t
 
 ***
 
-## ✅ Actionable Recommendations
+## Actionable Recommendations
 
 This analysis delivered a clear, prioritized action plan to stop the metric bleeding and prevent future recurrence.
 
@@ -66,7 +66,7 @@ This analysis delivered a clear, prioritized action plan to stop the metric blee
 
 ***
 
-## 📁 Repository Structure
+## Repository Structure
 
 * `./data_generator.py`: Python script used to create the synthetic JSONL clickstream data.
 * `./engagement_logs/`: Directory containing the `day_*.json` event logs.
